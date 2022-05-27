@@ -7,7 +7,7 @@ public with sharing class AccountControllerForced {
 	    	//Some randome codes goes brrrr....................
 		if(Test.isRunningTest())
 		{
-			throw new AuraHandledException('');
+		   throw new AuraHandledException('');
 		}
         } catch (Exception e) {
 		//for checking whether the line is executed or not
