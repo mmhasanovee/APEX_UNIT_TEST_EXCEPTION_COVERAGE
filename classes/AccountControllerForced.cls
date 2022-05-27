@@ -5,13 +5,13 @@ public with sharing class AccountControllerForced {
         try {
 	    	String shref = 'shref';
 	    	//Some randome codes goes brrrr....................
-			if(Test.isRunningTest())
-			{
-				throw new AuraHandledException('');
-			}
+		if(Test.isRunningTest())
+		{
+			throw new AuraHandledException('');
+		}
         } catch (Exception e) {
-			//for checking whether the line is executed or not
-            String justToCheckWhetherTheExceptionIsHandled = 'Exception handled';
+		//for checking whether the line is executed or not
+            	String justToCheckWhetherTheExceptionIsHandled = 'Exception handled';
 		}
     }
 }
