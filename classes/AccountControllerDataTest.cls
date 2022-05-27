@@ -4,6 +4,7 @@ public with sharing class AccountControllerDataTest {
     Account acWithoutName = new Account();
 
     try {
+        //not providing the required field 'Name', hehe
         AccountControllerData.acInsert(acWithoutName);
     } catch (Exception e) {
         System.debug('Error is: '+e.getMessage());
