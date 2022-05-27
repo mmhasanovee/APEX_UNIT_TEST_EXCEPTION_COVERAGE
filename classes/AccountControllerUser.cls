@@ -1,9 +1,4 @@
 public with sharing class AccountControllerUser {
-    // if(Test.isRunningTest())
-		// 	{
-		// 		throw new AuraHandledException('');
-		// 	}
-
     public static void acInsert(){
         Account ac = new Account();
 
